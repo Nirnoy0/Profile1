@@ -5,7 +5,11 @@ body{
 }
 section{
     display: flex;
-
+    margin-bottom: 200px;
+    background-image: url(images/dream-bg.png);
+    background-repeat : no-repeat;
+    background-position-x: right;
+    
 }
 .name{
     color:rgba(255, 0, 0, 0.623);
@@ -13,20 +17,32 @@ section{
     font-size: 45px;
 }
 .div1{
-    margin-left: 5px;
-    margin-top: 15px;
+    margin-left: 0%;
+    margin-top: 0%;
+    padding-top: 10px;
     padding-left: 0%;
-    padding-right: 15px;
+    padding-right: 5px;
+    width: 55%;
+    border-left: solid 5px plum;
+    border-top: solid 5px plum;
+    border-bottom: solid 5px plum;
+    border-radius: 35%;
 }
 .div2{
     margin-top: 35px;
     margin-left: 9px;
+    width: 50%;
 }
 
 .pra{
     font-size: 20px;
+    text-align: justify;
 }
 .hire{
-    background-color: salmon;
-    border: solid 5px salmon;
+    background-color:salmon;
+    border: solid 3px gray;
+    text-decoration: none;
+    color: #708090;
+    border-radius: 25%;
+    padding: 2%;
 }
