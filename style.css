@@ -22,7 +22,7 @@ section{
     padding-top: 10px;
     padding-left: 0%;
     padding-right: 5px;
-    width: 55%;
+    width: 60%;
     border-left: solid 5px plum;
     border-top: solid 5px plum;
     border-bottom: solid 5px plum;
@@ -31,7 +31,7 @@ section{
 .div2{
     margin-top: 35px;
     margin-left: 9px;
-    width: 50%;
+    width: 60%;
 }
 
 .pra{
@@ -45,4 +45,9 @@ section{
     color: #708090;
     border-radius: 25%;
     padding: 2%;
+}
+.footer{
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
 }
