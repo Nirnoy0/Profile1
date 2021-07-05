@@ -1,3 +1,32 @@
 body{
     font-family: 'Roboto Mono', monospace;
+    background-color: black;
+    color: gray;
+}
+section{
+    display: flex;
+
+}
+.name{
+    color:rgba(255, 0, 0, 0.623);
+    font-weight: 1000;
+    font-size: 45px;
+}
+.div1{
+    margin-left: 5px;
+    margin-top: 15px;
+    padding-left: 0%;
+    padding-right: 15px;
+}
+.div2{
+    margin-top: 35px;
+    margin-left: 9px;
+}
+
+.pra{
+    font-size: 20px;
+}
+.hire{
+    background-color: salmon;
+    border: solid 5px salmon;
 }
